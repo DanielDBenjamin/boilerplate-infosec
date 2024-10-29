@@ -1,6 +1,10 @@
 const express = require('express');
 const app = express();
-
+var myname = 'daniel';
+if (myname > 0) 
+{
+  console.log(myname);
+}
 
 
 
